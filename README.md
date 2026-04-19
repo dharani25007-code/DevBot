@@ -1,147 +1,95 @@
-# 💻 DevBot – Coding-Only AI Chatbot
+# 🤖 DevBot
 
-DevBot is an AI-powered coding assistant built using **Python**, **Flask**, and **OpenRouter API**.  
-It answers strictly programming and software development related questions.
+> A focused, coding-only AI chatbot built with Python, Flask, and the OpenRouter API — designed to answer programming questions and nothing else.
+
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-Web%20Framework-black?logo=flask&logoColor=white)
+![OpenRouter](https://img.shields.io/badge/OpenRouter-AI%20API-purple)
+![HTML](https://img.shields.io/badge/Frontend-HTML%2FCSS%2FJS-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
-## 🚀 Live Demo
+## 📌 Overview
 
-(After deployment, add your website link here)
-
-```
-https://your-devbot-url.com
-```
+DevBot is a minimal AI chatbot that stays strictly on-topic — coding only. It uses free AI models via the OpenRouter API to answer programming questions across languages and frameworks. The UI is a clean, responsive web interface built with HTML/CSS/JS and served through Flask.
 
 ---
 
 ## ✨ Features
 
-- 🤖 AI-powered coding assistant
-- 💻 Answers only programming-related questions
-- 🔐 Secure API key handling using environment variables
-- 🌐 Web-based chat interface
-- 🚫 Blocks non-technical questions
-- ⚡ Lightweight Flask backend
-- 🔒 No secrets stored in the repository
+- 💬 **Coding-only AI** — refuses off-topic queries, stays focused on programming
+- ⚡ **Streaming responses** — token-by-token output for a live typing effect
+- 🌐 **Web interface** — clean chat UI accessible from any browser
+- 🆓 **Free AI models** — powered by OpenRouter's free-tier models (zero API cost)
+- 🐍 **Flask backend** — lightweight Python server with minimal dependencies
 
 ---
 
-## 🛠 Tech Stack
-
-- Python
-- Flask
-- OpenRouter API
-- HTML / CSS
-- Git & GitHub
-- Gunicorn (for deployment)
-
----
-
-## 📂 Project Structure
+## 🗂️ Project Structure
 
 ```
 DevBot/
 │
-├── app.py
-├── requirements.txt
+├── app.py            # Flask backend — routes, OpenRouter API calls, streaming
+├── templates/
+│   └── index.html    # Chat UI — HTML/CSS/JS frontend
 ├── .gitignore
-├── README.md
-└── templates/
-      └── index.html
+└── README.md
 ```
 
 ---
 
-## 🔑 Environment Setup (Important)
+## 🚀 Getting Started
 
-Create a `.env` file locally:
+### Prerequisites
 
-```
-OPENROUTER_API_KEY=your_api_key_here
-```
-
-⚠️ Never upload `.env` to GitHub.  
-The `.gitignore` file prevents this automatically.
-
----
-
-## ▶️ Run Locally
-
-### 1️⃣ Install dependencies
-
-```
-pip install -r requirements.txt
+```bash
+pip install flask requests python-dotenv
 ```
 
-### 2️⃣ Run the application
+### Setup
 
+1. Get a **free API key** from [openrouter.ai/keys](https://openrouter.ai/keys)
+
+2. Create a `.env` file in the project root:
 ```
+OPENROUTER_API_KEY=sk-or-v1-your-key-here
+```
+
+3. Run the app:
+```bash
 python app.py
 ```
 
-### 3️⃣ Open in browser
-
-```
-http://127.0.0.1:5000
-```
+4. Open your browser at: `http://127.0.0.1:5000`
 
 ---
 
-## 🌍 Deployment
+## 🧰 Tech Stack
 
-DevBot can be deployed on:
-
-- Render
-- Railway
-- Heroku
-- Any Python hosting platform
-
-When deploying, configure the environment variable:
-
-```
-OPENROUTER_API_KEY
-```
-
-inside the hosting provider settings.
+| Tech | Role |
+|---|---|
+| Python + Flask | Backend web server and API routing |
+| OpenRouter API | Gateway to free AI language models |
+| HTML / CSS / JS | Chat frontend interface |
+| python-dotenv | Loads API keys from `.env` securely |
 
 ---
 
-## 🔐 Security Practices
+## 🔑 Environment Variables
 
-- API keys are stored in environment variables
-- `.env` file is excluded from Git using `.gitignore`
-- Previously exposed keys have been revoked
-- Clean Git history maintained
-
----
-
-## 📌 Future Improvements
-
-- Chat history storage
-- Database integration
-- User authentication
-- ChatGPT-style UI
-- Code syntax highlighting
-- Custom domain deployment
+| Variable | Required | Description |
+|---|---|---|
+| `OPENROUTER_API_KEY` | ✅ Yes | Your OpenRouter API key |
+| `SECRET_KEY` | Optional | Flask session secret key |
 
 ---
 
-## 👨‍💻 Author
+## 📄 License
 
-**Dharani**
-
-GitHub:  
-https://github.com/dharani25007-code
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## ⭐ Support
-
-If you like this project, give it a ⭐ on GitHub!
-
----
-
-## 📢 Keywords
-
-Python chatbot, Flask AI app, OpenRouter integration, coding assistant, web-based AI bot
+> Built with ⚡ by [Dharanidharan M](https://github.com/dharani25007-code)
