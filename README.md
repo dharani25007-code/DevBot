@@ -7,8 +7,7 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![OpenRouter](https://img.shields.io/badge/OpenRouter-7C3AED?style=for-the-badge)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-4ecdc4?style=for-the-badge)
+
 
 > 🤖 A focused, coding-only AI chatbot — it answers programming questions and **nothing else.**
 
