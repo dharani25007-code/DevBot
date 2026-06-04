@@ -34,7 +34,18 @@ DevBot is a minimal AI chatbot that stays strictly on-topic — **coding only**.
 
 ---
 
+## 🗂️ Project Structure
 
+```
+DevBot/
+├── app.py            # Flask backend — routes, OpenRouter API, streaming
+├── templates/
+│   └── index.html    # Chat UI
+├── .gitignore
+└── README.md
+```
+
+---
 
 ## 🚀 Getting Started
 
