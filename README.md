@@ -1,4 +1,7 @@
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f1117,50:4ecdc4,100:0f1117&height=200&section=header&text=DevBot&fontSize=55&fontColor=ffffff&fontAlignY=40&desc=Coding-Only%20AI%20Chatbot%20%7C%20Flask%20%2B%20OpenRouter&descAlignY=60&descSize=18&animation=fadeIn"/>
 
+</div>
 <div align="center" >
   
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
