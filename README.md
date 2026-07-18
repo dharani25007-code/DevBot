@@ -15,6 +15,7 @@
 
 ---
 
+
 ## 📌 Overview
 
 DevBot is a minimal AI chatbot that stays strictly on-topic — **coding only**. Powered by free AI models via the OpenRouter API, it delivers fast, streamed answers to programming questions across all languages and frameworks through a clean web interface.
